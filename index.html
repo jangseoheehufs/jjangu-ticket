@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공연 정보 확인</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>공연 정보 확인</h1>
+        <form id="infoForm">
+            <label for="coupon">쿠폰번호:</label>
+            <input type="text" id="coupon" required><br>
+            <button type="button" onclick="verifyInfo()">확인</button>
+        </form>
+        <div id="result"></div>
+        <div id="accountInfo" style="display: none;">
+            <p>계좌번호: 국민은행 705601-01-471226 장ㅅ희</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
